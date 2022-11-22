@@ -1,7 +1,7 @@
 ---
 title: "CodeChunks and more"
 author: "Thomas Koentges"
-date: "26/11/2021"
+date: "22/11/2021"
 output: html_document
 params:
   x_axis: "price"
@@ -120,13 +120,3 @@ ggplot(diamonds, aes_string(params$x_axis, params$y_axis)) + geom_point()
 
 :::
 ::::
-
-## Final Exercise
-
-A student has sent you the file `rmd-country-profile.Rmd`, which is an R Markdown document analyzing the data in `at_health_facilities.csv` for Bangladesh. They could not knit the file, and are providing you with the raw `.Rmd` file instead of a rendered file.
-
-1. Go through the file, fixing things that are preventing it from knitting cleanly.
-2. Change the two lines of bold text to H2-level headers to organize the document, and add a table of contents.
-3. Convert this R Markdown report for Bangladesh into a parameterized report with the country’s iso3 code as its parameter. Knit a new country profile for Egypt (ISO3 code “EGY”).
-
-
